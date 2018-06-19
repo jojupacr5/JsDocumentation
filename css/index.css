@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+  }
+  nav, .content{
+    padding: 1em;
+  }
+  
+  h1{
+    font-size: 35px;
+    text-align: center;
+  }
+  nav ul{
+    padding: 0;
+  }
+  nav ul li{
+    border: 1px solid gray;
+    list-style: none;
+  }
+  a{color: black;}
+  
+  section p{
+    padding: 0 1em;
+    line-height: 1.4;
+  }
+  section ul{
+    padding-right: 1.3em;
+  }
+  section li{
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  section .code-container{
+    background-color: #f7f7f7;
+    margin: 0 1em 1em;
+    padding: 1em 1em;
+  }
+  section code{color: black;}
+  .list-style-none{
+    list-style: none;
+  }
+  @media (max-width: 849.98px) { 
+    nav ul{
+      height: 253px;
+      overflow-y: scroll;
+    }
+  }
+  @media (min-width: 850px) { 
+    nav{
+      width: 40%;
+      float: left;
+      height: 100vh;
+    }
+    .content{
+      width: 60%;
+      float: left;
+      height: 100vh;
+      overflow-y: scroll;
+    }
+    nav ul{
+      height: 87%;
+      overflow-y: scroll;
+    }
+    .side-text{
+      display: block;
+      overflow: auto;
+    }  
+  }
